@@ -28,7 +28,7 @@ time, mark, audio, video
 
 #bandeau
 {
-    width: 330px;
+    width: 350px;
     height: auto;
     background-color: #039BE5;
     display: flex;
@@ -68,7 +68,7 @@ h2
 
 .fas
 {
-    margin-left: 2px;
+    margin-left: 4px;
     margin-bottom: 25px;
 }
 
@@ -151,4 +151,27 @@ h4
 #box4
 {
     margin-bottom: 50px;
+}
+
+            /******************* Experience professionnelle *******************/
+
+#box5, #box6, #box7
+{
+    display: flex;
+}
+
+.dates p
+{
+    margin: 0px 0px 0px 35px;
+    width: 90px;
+}
+
+.dates i
+{
+    color: #039BE5;
+}
+
+.titre_secondaire i
+{
+    color: #039BE5;
 }
