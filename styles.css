@@ -15,6 +15,7 @@ time, mark, audio, video
 {
 	margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 #container
@@ -140,7 +141,7 @@ h4
 .dates
 {
     display: flex;
-    align-items: center;
+    padding-top: 40px;
 }
 
 .dates p
@@ -174,4 +175,98 @@ h4
 .titre_secondaire i
 {
     color: #039BE5;
+}
+
+            /*************************************** Responsive ********************************************/
+
+            /******************* Tablettes *******************/
+
+@media screen and (max-width: 768px)
+{
+    #container
+    {
+        flex-direction: column-reverse;
+    }
+
+    #bandeau
+    {
+        width: 100%;
+        flex-flow: row no-wrap;
+    }
+    
+    #photo_profil
+    {
+        order: 1;
+    }
+
+    #photo_profil img
+    {
+        margin-top: 0px;
+    }
+
+    #contact 
+    {
+        order: 1;
+        margin-right: 50px;
+    }
+
+    #loisirs
+    {
+        order: 1;
+    }
+}
+
+            /******************* Smartphones *******************/
+
+@media screen and (max-width: 425px)
+{
+
+
+    .main
+    {
+        padding: 0px;
+    }
+
+    #photo_profil
+    {
+        order: 3;
+    }
+
+    #photo_profil img
+    {
+        margin: 20px 0px 0px 135px;
+    }
+
+    #loisirs
+    {
+        width: 100%;
+        order: 1;
+    }
+
+    #loisirs span
+    {
+        padding-left: 80px;
+    }
+
+    #contact 
+    {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        order: 2;
+        margin: 0px;
+    }
+
+    #contact h2
+    {
+        width: 100%;
+    }
+
+    #contact p
+    {
+        padding: 0px;
+        justify-content: center;
+    }
+
+
 }
