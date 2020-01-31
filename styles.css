@@ -25,6 +25,11 @@ time, mark, audio, video
     height: 100%;
 }
 
+aside, main, header, section
+{
+    font-family: 'Roboto Condensed', arial, sans-serif;
+}
+
             /*************************************** Partie gauche du CV ********************************************/
 
 #bandeau
@@ -49,11 +54,15 @@ time, mark, audio, video
     clip-path: circle(50% at 50% 50%);
 }
 
+.a_propos
+{
+    height: 50%;
+}
+
 p
 {
     margin: 15px 10px 10px 70px;
     padding-right: 50px;
-    font-family: 'Roboto Condensed', arial, sans-serif;
 }
 
 h2
@@ -64,13 +73,20 @@ h2
     text-align: center;
     background-color: #263238;
     color: #039BE5;
-    font-family: 'Roboto Condensed', arial, sans-serif;
+}
+
+.color_icone
+{
+    display: flex;
+    font-size: 3em;
+    color: #263238;
+    justify-content: center;
 }
 
 .fas
 {
-    margin-left: 4px;
-    margin-bottom: 25px;
+    margin-left: 10px;
+    padding-top: 15px;
 }
 
             /*************************************** Partie droite du CV ********************************************/
@@ -93,12 +109,23 @@ h1 span
     color: #039BE5;
 }
 
+.h2
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.7em;
+    text-align: left;
+    background-color: unset;
+    color: unset;
+}
+
 h3
 {
     font-size: 1.7em;
+    padding-top: 30px;
 }
 
-h3 span
+.souligne
 {
     border-bottom: 2px solid #039BE5;
 }
@@ -207,7 +234,6 @@ h4
     #contact 
     {
         order: 1;
-        margin-right: 50px;
     }
 
     #loisirs
@@ -234,7 +260,7 @@ h4
 
     #photo_profil img
     {
-        margin: 20px 0px 0px 135px;
+        margin: 20px 0px 20px 0px;
     }
 
     #loisirs
@@ -268,5 +294,8 @@ h4
         justify-content: center;
     }
 
-
+    .site_web
+    {
+        margin: 15px 10px 10px 45px;
+    }
 }
