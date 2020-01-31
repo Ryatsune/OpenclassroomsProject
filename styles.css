@@ -56,7 +56,7 @@ aside, main, header, section
 
 .a_propos
 {
-    height: 50%;
+    height: 52%;
 }
 
 p
@@ -246,13 +246,11 @@ h4
 
 @media screen and (max-width: 425px)
 {
-
-
     .main
     {
         padding: 0px;
     }
-
+      
     #photo_profil
     {
         order: 3;
@@ -296,6 +294,11 @@ h4
 
     .site_web
     {
-        margin: 15px 10px 10px 45px;
+        margin: 15px 10px 10px 70px;
+    }
+
+    #loisirs span
+    {
+        padding: 0px;
     }
 }
