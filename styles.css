@@ -314,19 +314,32 @@ h4
         flex-direction: column;
         border: 2px solid #039BE5;
         border-radius: 50px;
-        padding: 20px;
+        padding: 30px 20px 20px 20px;
         box-shadow: 0px 0px 7px #000000;
     }
 
     .dates
     {
-        margin-left: 70px;
+        padding: 0px 0px 5px 20px;
+        margin: 0px;
     }
 
     .deco
     {
-        padding: 10px;
+        padding: 10px 20px 10px 20px;
         margin-top: 20px;
+    }
+
+    h4
+    {
+        padding: 15px 0px 5px 20px;
+        margin: 0px;
+    }
+
+    p
+    {
+        margin: 10px 10px 10px 20px;
+        padding: 0px 0px 5px 0px;
     }
 
     .recommandations
@@ -368,6 +381,7 @@ h4
         width: 100%;
         order: 2;
         margin: 0px;
+        text-align: start;
     }
 
     #contact h2
@@ -381,15 +395,9 @@ h4
         text-align: center;
     }
 
-    #contact p
+    .tel
     {
-        padding: 0px;
-        justify-content: center;
-    }
-
-    .site_web
-    {
-        margin: 15px 10px 10px 70px;
+        padding-left: 90px;
     }
 
     #loisirs span
