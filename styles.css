@@ -405,3 +405,38 @@ h4
         padding: 0px;
     }
 }
+
+@media screen and (max-width: 320px)
+{
+    .tel
+    {
+        padding-left: 0px;
+    }
+
+    #contact
+    {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    h3
+    {
+        font-size: 1.3em;
+    }
+
+    .reco1, .reco2
+    {
+        width: auto;
+    }
+
+    .reco1 h4, .reco2 h4
+    {
+        padding: 0px;
+    }
+
+    .recommandations
+    {
+        align-items: flex-start;
+        padding-left: 50px;
+    }
+}
