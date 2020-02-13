@@ -187,6 +187,11 @@ h4
     display: flex;
 }
 
+#box7
+{
+    margin-bottom: 50px;
+}
+
 .dates p
 {
     margin: 0px 0px 0px 35px;
