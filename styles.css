@@ -270,9 +270,8 @@ h4
     
     #photo_profil
     {
-        position: relative;
-        top: -2600px;
-        order: 1;
+        position: absolute;
+        top: 50px;
     }
 
     #photo_profil img
@@ -358,8 +357,8 @@ h4
       
     #photo_profil
     {
-        position: relative;
-        top: -3760px;
+        position: absolute;
+        top: 10px;
     }
 
     #photo_profil img
@@ -414,8 +413,8 @@ h4
 {
     #photo_profil
     {
-        position: relative;
-        top: -4000px;
+        position: absolute;
+        top: 10px;
     }
 }
 
@@ -455,7 +454,55 @@ h4
 
     #photo_profil
     {
-        position: relative;
-        top: -4300px;
+        position: absolute;
+        top: 5px;
+    }
+}
+
+@media screen and (min-width: 1700px)
+{
+    h2
+    {
+        font-size: 2.4em;
+    }
+
+    p
+    {
+        font-size: 1.6em;
+    }
+
+    h1
+    {
+        font-size: 10em;
+    }
+
+    .h2
+    {
+        font-size: 4em;
+    }
+
+    h3
+    {
+        font-size: 2.2em;
+    }
+
+    h4
+    {
+        font-size: 1.6em;
+    }
+
+    #photo_profil
+    {
+        min-height: 15%;
+    }
+
+    #photo_profil img
+    {
+        max-height: 250px;
+    }
+
+    #loisirs
+    {
+        min-height: 10%;
     }
 }
