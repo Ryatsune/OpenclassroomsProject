@@ -57,7 +57,7 @@ aside, main, header, section
 
 .a_propos
 {
-    height: 55%;
+    height: 58%;
 }
 
 p
@@ -250,6 +250,7 @@ h4
     .main
     {
         width: auto;
+        margin-top: 200px;
     }
 
     #bandeau
@@ -269,6 +270,8 @@ h4
     
     #photo_profil
     {
+        position: relative;
+        top: -2600px;
         order: 1;
     }
 
@@ -355,7 +358,8 @@ h4
       
     #photo_profil
     {
-        order: 3;
+        position: relative;
+        top: -3760px;
     }
 
     #photo_profil img
@@ -406,6 +410,15 @@ h4
     }
 }
 
+@media screen and (max-width: 375px)
+{
+    #photo_profil
+    {
+        position: relative;
+        top: -4000px;
+    }
+}
+
 @media screen and (max-width: 320px)
 {
     .tel
@@ -438,5 +451,11 @@ h4
     {
         align-items: flex-start;
         padding-left: 50px;
+    }
+
+    #photo_profil
+    {
+        position: relative;
+        top: -4300px;
     }
 }
